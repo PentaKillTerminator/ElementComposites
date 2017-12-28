@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+ 
     LabelIimageView *labe = [[LabelIimageView alloc]init];
     labe.center = self.view.center;
     labe.text = @"控制器";
